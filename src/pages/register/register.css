@@ -1,0 +1,76 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://cdn.shopify.com/s/files/1/0763/8199/articles/How_to_Care_for_Color-Treated_Natural_Hair_1200x.jpg?v=1510024898");
+  background-size: cover;
+}
+.registerTitle {
+  font-size: 50px;
+  color: rgb(59, 9, 7);
+}
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.registerForm > label {
+  margin: 10px 0;
+}
+.registerInput {
+  padding: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+}
+.registerButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Cambria", "serif";
+}
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.reglog {
+  text-decoration: none;
+  color: rgb(132, 26, 0);
+  margin-bottom: 20px;
+}
+.registerFormWrapper {
+  padding: 5px;
+  background-color: rgba(239, 241, 243, 0.7);
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+h4 {
+  margin-bottom: 30px;
+}

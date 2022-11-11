@@ -1,0 +1,81 @@
+.top {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(57, 56, 56);
+  /* position: sticky; */
+  position: fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  font-family: "" Lora ", " sans serif;
+  /* font-weight: 600; */
+  /* font-family: "Lora", "sans serif"; */
+  z-index: 999;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.topCenter {
+  flex: 6;
+}
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: rgb(239, 235, 235);
+  cursor: pointer;
+}
+
+.topImage,
+.myLogoImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 200px;
+  align-items: center;
+  /* background-image: url();
+  z-index: 10000; */
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Josefin", "Sans"
+}
+.topSearchIcon {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-left: 15px;
+}
+.navName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navName span {
+  margin: 1em;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: "Montserrat";
+  font-weight: 500;
+  /* font-style: italic; */
+}
